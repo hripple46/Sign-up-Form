@@ -29,13 +29,21 @@ form div {
 }
 
 #formSide {
+  background-color: snow;
   height: 100%;
   flex: 1.75;
   display: flex;
   align-items: center;
-
+  align-content: center;
   flex-flow: row wrap;
-  margin-left: 4px;
+}
+
+#formContainer {
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding-left: 4px;
+  box-shadow: 0px 20px 10px grey;
 }
 
 form {
@@ -55,8 +63,14 @@ form {
 }
 
 button {
-  margin-top: 10px;
+  background-color: olive;
+  text-align: center;
+  margin-top: 30px;
   display: block;
+  height: 30px;
+  width: 50%;
+  margin-left: 5px;
+  color: white;
 }
 
 input:required:valid {

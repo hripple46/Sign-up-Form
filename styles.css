@@ -58,3 +58,10 @@ button {
   margin-top: 10px;
   display: block;
 }
+
+input:required:valid {
+  border-color: green;
+}
+input:required:invalid {
+  border-color: red;
+}

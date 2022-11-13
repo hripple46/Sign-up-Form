@@ -41,14 +41,16 @@
             <label for="phone">Phone Number: <br /></label>
             <input type="number" name="phone" />
           </div>
+          
           <div id="password">
             <label for="password">Password: <br></label>
-            <input type="password" name="password">
+            <input type="password" name="password" required minlength="6">
           </div>
           <div id="passwordCheck">
-            <label for="password">Confirm Password: <br></label>
-            <input type="password" name="passwordCheck">
+            <label for="passwordCheck">Confirm Password: <br></label>
+            <input type="password" name="passwordCheck" required minlength="6">
           </div>
+          
           <button id="createAccount">CREATE ACCOUNT</button>
           </div>
         </form>

@@ -80,7 +80,7 @@ input:required:invalid {
   border-color: red;
 }
 
-input:hover {
+input:focus {
   border-color: blue;
-  box-shadow: 2px 2px black;
+  box-shadow: 5px 5px 10px grey;
 }

@@ -79,3 +79,8 @@ input:required:valid {
 input:required:invalid {
   border-color: red;
 }
+
+input:hover {
+  border-color: blue;
+  box-shadow: 2px 2px black;
+}
